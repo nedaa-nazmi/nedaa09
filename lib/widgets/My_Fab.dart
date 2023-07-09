@@ -11,7 +11,7 @@ class MyFab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RawMaterialButton(
-      constraints: BoxConstraints(minWidth: 36, minHeight: 36),
+      constraints: BoxConstraints(minWidth: 30, minHeight: 30),
       padding: EdgeInsets.all(16),
       shape: CircleBorder(),
       fillColor: Colors.pinkAccent,

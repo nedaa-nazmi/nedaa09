@@ -9,8 +9,8 @@ class My_fab extends StatelessWidget {
   Widget build(BuildContext context) {
     return RawMaterialButton(
       constraints: const BoxConstraints(
-        minHeight: 86,
-        maxWidth: 86,
+        minHeight: 60,
+        maxWidth: 60,
       ),
       shape: CircleBorder(),
       padding: EdgeInsets.all(12),
